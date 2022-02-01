@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+p {
+  color: grey;
+  font-size: 12px; }
+
+.container {
+  width: 100%; }
+
+.blocks {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: start; }
+
+.category {
+  width: 48%;
+  height: 300px; }
+  .category-grafics {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between; }
+  .category-percent {
+    width: 48%;
+    height: 300px; }
+  .category-amount {
+    width: 48%;
+    height: 300px; }
+
+.day {
+  width: 48%;
+  height: 300px; }
+  .day svg {
+    height: 100%;
+    width: 100%; }
